@@ -1,0 +1,188 @@
+body{text-align:center;
+background-image: url('http://texturelib.com/Textures/rock/stones/rock_stones_0104_01_preview.jpg');}
+.game{
+  border: 3px solid black;
+  width:500px;
+  height:480px;
+  border-radius:100%;
+  margin:0 auto;
+  background-color:black;
+  box-shadow:0px 0px 50px #000000;
+}
+.lul:active{
+  background-color:#55ff56;
+}
+.ul{
+  background-color:#41c341;
+  border-radius: 100% 0 0 0;
+  margin: 20px 0px 0px 20px;
+  float:left;
+}
+.ul, .ur, .ll, .lr{
+  height:210px;
+  width:220px;
+  border: 1px solid black;
+  position:relative;
+
+}
+.lur:active{background-color:red;}
+.ur{
+  background-color:#cc0000;
+  border-radius: 0 100% 0 0;
+  margin: 20px 20px 0px 0px;
+  float:right;
+}
+.llr:active{background-color:yellow;}
+.lr{
+  background-color:#CCCC00;
+  border-radius: 0 0 100% 0;
+  margin: 15px 20px 0px 0px;
+  float:right;
+
+}
+.lll:active{background-color:blue;}
+.ll{
+  background-color:#0000aa;
+  border-radius: 0 0 0 100%;
+  margin: 15px 0px 0px 20px;
+  float:left;
+  clear:both;
+}
+.middle{
+  margin:0 auto;
+  position:relative;
+  height:210px;
+  width:210px;
+  border:6px solid black;
+  padding:10px;
+  border-radius:100%;
+  z-index:100;
+  margin-top:130px;
+  background-color:black;
+}
+.inside{
+  border-radius:100%;
+  height:200px;
+  width:200px;
+  border: 1px solid black;
+  margin:0 auto;
+  margin-top:5px;
+  background-color:white;
+}
+.inside > div{
+    font-family:Indie Flower;
+}
+.name:hover{
+  cursor:default;
+}
+.name{
+  position:absolute;
+  margin:0 auto;
+  left:17%;
+  font-size: 40px;
+  margin-top:-38px;
+}
+.score{
+  color:red;
+  background-color:black;
+  height:30px;
+  width:60px;
+  border:4px double silver;
+  font-family:orbitron !important;
+  font-size:25px;
+  position:absolute;
+  margin:0 auto;
+  margin-top:90px;
+  left:35%
+}
+.reset:active, .strict:active{
+  border:3px inset grey;
+}
+.reset{
+  border:3px groove grey;
+  background-color:red;
+  border-radius:100%;
+  width:20px;
+  height:20px;
+  position:absolute;
+  margin:0 auto;
+  margin-top:100px;
+  left:16%;
+}
+h5{
+  font-size:15px;
+}
+.rstbtn{
+  margin-left:-9px;
+}
+.strict{
+  border:3px groove grey;
+  background-color:orange;
+  border-radius:100%;
+  width:20px;
+  height:20px;
+  position:absolute;
+  margin:0 auto;
+  margin-top:99px;
+  left:74%;
+}
+.strictbtn{
+  margin-left:-10px;
+}
+.indicator{
+  border:2px solid black;
+  background-color:black;
+  border-radius:100%;
+  width:5px;
+  height:5px;
+  position:absolute;
+  margin:0 auto;
+  margin-top:83px;
+  left:78%;
+}
+.onOff{
+  color:white;
+  margin-top:160px;
+  left:39%;
+  position:absolute;
+  height:20px;
+  width:50px;
+  background-color:black;
+}
+.off{
+  color:black;
+  margin-top:1px;
+  margin-right:-80px;
+}
+.on{
+  color:black;
+  margin-top:-47px;
+  margin-left:-80px;
+}
+.slider{
+  height:18px;
+  width:23px;
+  position:absolute;
+  background-color:grey;
+  border:1px solid black;
+  font-family:times new roman, sans-serif;
+  font-face:sans-serif;
+  font-size:20px;
+  overflow:hidden;
+  margin-left:25px;
+}
+.strict:hover, .reset:hover, .slider:hover{
+  cursor:pointer;
+}
+.on, .off{
+  cursor:default;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

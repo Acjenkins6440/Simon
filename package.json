@@ -4,6 +4,7 @@
   "description": "Simon Game",
   "main": "index.js",
   "scripts": {
+    "start": "serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Acjenkins6440/Simon/issues"
   },
-  "homepage": "https://github.com/Acjenkins6440/Simon#readme"
+  "homepage": "https://github.com/Acjenkins6440/Simon#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "serve": "^6.0.5"
+  }
 }
