@@ -1,0 +1,19 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "Simon Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acjenkins6440/Simon.git"
+  },
+  "author": "Alex Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acjenkins6440/Simon/issues"
+  },
+  "homepage": "https://github.com/Acjenkins6440/Simon#readme"
+}
