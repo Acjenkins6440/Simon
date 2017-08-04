@@ -1,11 +1,30 @@
 body{text-align:center;
 background-image: url('http://texturelib.com/Textures/rock/stones/rock_stones_0104_01_preview.jpg');}
+.victory{
+  border: 4px dotted red;
+  height:110px;
+  width:300px;
+  background-color:black;
+  color:white;
+  font-size:40px;
+  margin:0 auto;
+  margin-top:-300px;
+  margin-left:96px;
+  font-family: Indie Flower;
+  z-index: 1000000;
+  position:absolute;
+}
+.link, .link:hover, .link:active, span{
+  color: white;
+  cursor:pointer;
+}
 .game{
   border: 3px solid black;
   width:500px;
   height:480px;
   border-radius:100%;
   margin:0 auto;
+  margin-top:5%;
   background-color:black;
   box-shadow:0px 0px 50px #000000;
 }
